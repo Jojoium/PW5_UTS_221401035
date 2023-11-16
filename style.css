@@ -1,0 +1,177 @@
+/* Add a color background change on hover to the top navigation */
+.card-header:hover{
+background-color: #14889a;
+}
+
+/* Justify Text on Card */
+.card-body{
+text-align: justify;
+}
+
+/* Change the color of links on hover */
+.navbar-nav .nav-link:hover {
+    color: #14889a; 
+    background-color: rgb(230, 230, 217);
+    border-radius: 500px;
+  }
+
+/* Change Logo Size */
+.logor {
+width: 50px !important;
+}
+
+/* Add Border to Carousel */
+.carousel-item img {
+    width: 100%;
+    border: 2px solid #000; /* You can adjust the width and color as needed */
+    opacity: 95%;
+}
+
+/* Global Body Settings */
+body{
+background-color: #565656 !important;
+-webkit-text-fill-color: white;
+}
+
+/* Color change on the box card */
+.team-boxed {
+    color:#313437;
+    background-color:#02131c;
+  }
+  
+  /* card p settings */
+  .team-boxed p {
+    color:#7d8285;
+    text-align: justify;
+  }
+  
+  /* card h2 settings */
+  .team-boxed h2 {
+    font-weight:bold;
+    margin-bottom:40px;
+    padding-top:40px;
+    color:inherit;
+  }
+  
+  /* Card headings settings */
+  .team-boxed .intro {
+    font-size:16px;
+    max-width:500px;
+    margin:0 auto;
+  }
+  
+  /* Card headings settings for p */
+  .team-boxed .intro p {
+    margin-bottom:0;
+  }
+  
+  /* paddings Icon */
+  .team-boxed .people {
+    padding:50px 0;
+  }
+  
+  /* Text Align Center */
+  .team-boxed .item {
+    text-align:center;
+  }
+  /* Box Card Margin + Padding */
+  .team-boxed .item .box {
+    text-align:center;
+    padding:30px;
+    background-color:#3a3a3a;
+    margin-bottom:30px;
+  }
+  
+  /* Box Card Margin Top + Bottom  */
+  .team-boxed .item .name {
+    font-weight:bold;
+    margin-top:28px;
+    margin-bottom:8px;
+    color:inherit;
+  }
+  
+  /* Box Card Title Settings */
+  .team-boxed .item .title {
+    text-transform:uppercase;
+    font-weight:bold;
+    color:#d0d0d0;
+    letter-spacing:2px;
+    font-size:13px;
+  }
+  
+  /* Box Card Text Settings */
+  .team-boxed .item .description {
+    font-size:15px;
+    margin-top:15px;
+    margin-bottom:20px;
+  }
+  
+  /* Box card Max size */
+  .team-boxed .item img {
+    max-width:160px;
+  }
+  
+/* card base background color */
+.card {
+    border: none;
+    border-radius: 10px;
+    background-color: black !important;
+}
+
+/* Font adjustment on c-details span */
+.c-details span {
+    font-weight: 300;
+    font-size: 13px
+}
+
+/* Card main box general settings */
+.icon {
+    width: 50px;
+    height: 50px;
+    background-color: #717171;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 39px
+}
+
+/* Card Badge general Settings */
+.badge span {
+    background-color: #434343;
+    width: 60px;
+    height: 25px;
+    padding-bottom: 3px;
+    border-radius: 5px;
+    display: flex;
+    color: #fed85d;
+    justify-content: center;
+    align-items: center
+}
+
+/* Progress Box */
+.progress {
+    height: 10px;
+    border-radius: 10px
+}
+
+/* Progress Visual Bar Color Red */
+.progress div {
+    background-color: red
+}
+
+/* Progress Text Size */
+.text1 {
+    font-size: 14px;
+    font-weight: 600
+}
+
+/* Progress Text color */
+.text2 {
+    color: #a5aec0
+}
+
+/* Add Icon Background Color */
+.icon{
+    background-color: rgb(255, 255, 255) !important;
+}
